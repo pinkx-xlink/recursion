@@ -30,11 +30,10 @@ function recursiveFib(num) {
         return 1
     } else {
         z = x + y;
-        
-        // x = y;
-        // y = z;
+        x = y;
+        y = z;
         // j++;
-        recursiveFib(num = (x + 1) + (y + 1));
+        recursiveFib((num - 1));
         console.log(z);
         // j++;
     }
