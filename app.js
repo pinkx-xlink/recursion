@@ -19,13 +19,14 @@ function fibs(x) {
     return b;
     // return the result of the fib sequence after x iterations
 }
-// x = 8;
 fibs(8);
-// console.log(fibs(8));
 
-// function recursiveFib() {
-//     if(x < 2) {
-//         return 1
-//     } else {
-//     }
-// }
+function recursiveFib(num) {
+    if(num < 2) {
+        return 1
+    } else {
+        console.log('skjbdfkj')
+    }
+}
+recursiveFib(8);
+
