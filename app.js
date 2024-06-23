@@ -6,7 +6,15 @@
 function fibs(x) {
     let a = 0;
     let b = 1;
+    let c;
+    let i = 2;
     // run the fibonacci x times
+    while (i < x) {
+        c = a + b;
+        a = b;
+        b = c;
+        i++;
+    }
     // return the result of the fib sequence after x iterations
 }
 x = 8;
