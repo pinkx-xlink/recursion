@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
 // fibonacci using iteration
-let a = 0;
-let b = 1;
+
 // take in a number x
 function fibs(x) {
-   
+    let a = 0;
+    let b = 1;
     // run the fibonacci x times
     // return the result of the fib sequence after x iterations
 }
