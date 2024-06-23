@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-
+// RUN THIS CODE IN NODE.JS
 // fibonacci using iteration
-
 // take in a number x
 function fibs(x) {
     let a = 0;
@@ -14,11 +13,14 @@ function fibs(x) {
         a = b;
         b = c;
         i++;
+        console.log(b)
     }
+    console.log(`Rounds of fibonacci sequence executed: ${x}`);
+    return b;
     // return the result of the fib sequence after x iterations
 }
-x = 8;
-console.log(x);
+// x = 8;
+fibs(8);
 // console.log(fibs(8));
 
 // function recursiveFib() {
