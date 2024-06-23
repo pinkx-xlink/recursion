@@ -24,14 +24,13 @@ fibs(8);
 
 let x = 0;
 let y = 1;
-let z;
 let j = 0;
 function recursiveFib(num) {
   // let j = 2;
   if(num < 2) {
     return 1;
   } else {
-    z = x + y;
+    let z = x + y;
     x++;
     y++;
     j++;
