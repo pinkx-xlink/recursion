@@ -25,17 +25,20 @@ function recursiveFib(num) {
     let x = 0;
     let y = 1;
     let z;
-    let j = 2;
+    // let j = 2;
     if(num < 2) {
         return 1
     } else {
         z = x + y;
-        x = y;
-        y = z;
-        j++;
-        console.log(y);
-        console.log(`Resursive fibonacci sequence executed: ${num} times.`);
+        
+        // x = y;
+        // y = z;
+        // j++;
+        recursiveFib(num = (x + 1) + (y + 1));
+        console.log(z);
+        // j++;
     }
+    console.log(`Resursive fibonacci sequence executed: ${num} times.`);
 }
 recursiveFib(9);
 
