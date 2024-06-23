@@ -15,7 +15,7 @@ function fibs(x) {
         i++;
         console.log(b)
     }
-    console.log(`Rounds of fibonacci sequence executed: ${x}`);
+    console.log(`Rounds of fibonacci sequence executed: ${x} times`);
     return b;
     // return the result of the fib sequence after x iterations
 }
@@ -25,8 +25,8 @@ function recursiveFib(num) {
     if(num < 2) {
         return 1
     } else {
-        console.log('skjbdfkj')
+        console.log(`Resursive fibonacci sequence executed: ${num} times.`);
     }
 }
-recursiveFib(8);
+recursiveFib(9);
 
